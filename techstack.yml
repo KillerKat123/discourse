@@ -1,13 +1,37 @@
 repo_name: KillerKat123/discourse
-report_id: 0bdfbd789bf32be11f3d7ae2db1d85ab
+report_id: 8b0ed0e794bf58e313e262da79927e3c
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-08T12:39:47+00:00'
+timestamp: '2024-03-15T12:58:37+00:00'
 requested_by: DotEsparto1
 provider: github
 branch: main
-detected_tools_count: 206
+detected_tools_count: 246
 tools:
+- name: Bel
+  description: A new dialect of Lisp, by Paul Graham
+  website_url: http://paulgraham.com/bel.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/11408/no-img-open-source.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
   website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
@@ -18,6 +42,30 @@ tools:
   image_url: https://img.stackshare.io/service/6727/css.png
   detection_source_url: https://github.com/KillerKat123/discourse
   detection_source: Repo Metadata
+- name: D
+  description: Modern convenience. Modeling power. Native efficiency.
+  website_url: http://dlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3117/d-5.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/es/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/es/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: ES6
+  description: The next version of JavaScript
+  website_url: http://www.ecma-international.org/ecma-262/6.0/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Handlebars.js
   description: Minimal Templating on Steroids
   website_url: http://handlebarsjs.com/
@@ -28,6 +76,18 @@ tools:
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
   detection_source_url: https://github.com/KillerKat123/discourse
   detection_source: Repo Metadata
+- name: JSON
+  description: A lightweight data-interchange format
+  website_url: http://www.json.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2880/1024px-JSON_vector_logo.svg.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
@@ -42,16 +102,26 @@ tools:
 - name: Mustache
   description: Logic-less templates
   website_url: http://mustache.github.io/
-  version: 1.1.1
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1142/197655.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2016-12-29 05:32:23.000000000 Z
+  detection_source_url: https://github.com/KillerKat123/discourse
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -78,17 +148,6 @@ tools:
   detection_source: spec/fixtures/db/restore/error.sql
   last_updated_by: Gerhard Schlager
   last_updated_on: 2020-01-12 23:12:27.000000000 Z
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source_url: https://github.com/KillerKat123/discourse
-  detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
   website_url: http://www.typescriptlang.org
@@ -103,6 +162,20 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Bootstrap
   description: Simple and flexible HTML, CSS, and JS for popular UI components and
     interactions
@@ -184,6 +257,19 @@ tools:
   detection_source: app/assets/javascripts/bootstrap-json/package.json
   last_updated_by: Jarek Radosz
   last_updated_on: 2022-11-16 10:58:10.000000000 Z
+- name: Omi
+  description: Next generation web framework in 4KB JavaScript (Web Components + JSX
+    + Proxy + Path Updating)
+  website_url: https://github.com/Tencent/omi
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/9702/omi-logo.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Rails
   description: Web development that doesn't hurt
   website_url: http://rubyonrails.org/
@@ -378,21 +464,6 @@ tools:
   detection_source: ".github/workflows/labeler.yml"
   last_updated_by: David Taylor
   last_updated_on: 2022-11-02 15:43:59.000000000 Z
-- name: Istio
-  description: Open platform to connect, manage, and secure microservices, by Google,
-    IBM, and Lyft
-  website_url: https://istio.io/
-  version: 0.11.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Microservices Tools
-  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/app/assets/javascripts/yarn.lock
-  detection_source: ".github/workflows/tests.yml"
-  last_updated_by: Jarek Radosz
-  last_updated_on: 2021-02-22 09:28:32.000000000 Z
 - name: Mocha
   description: Simple, flexible, fun javascript test framework for node.js &amp; the
     browser
@@ -433,6 +504,18 @@ tools:
   detection_source: Gemfile
   last_updated_by: Robin Ward
   last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: QUnit
   description: A JavaScript Unit Testing framework
   website_url: http://qunitjs.com/
@@ -469,10 +552,10 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
-  detection_source: Gemfile
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-12-27 18:28:13.000000000 Z
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: SinonJS
   description: Standalone test spies, stubs and mocks for JavaScript
   website_url: http://sinonjs.org/
@@ -524,6 +607,20 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: hub
+  description: Wraps Git with extra features that make working with GitHub easier
+    (by GitHub)
+  website_url: http://hub.github.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: jsdom
   description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
     use with node.js
@@ -587,6 +684,31 @@ tools:
   detection_source: Gemfile
   last_updated_by: Robin Ward
   last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: Gmail
+  description: A free web-based e-mail service
+  website_url: https://mail.google.com
+  open_source: false
+  hosted_saas: true
+  category: Back Office
+  sub_category: Email Services
+  image_url: https://img.stackshare.io/service/3167/default_2d280843054d533c0a56c573c2e47e2cc1105a88.jpg
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: Omise
+  description: An online payment gateway offering a wide range of processing solutions
+    for any business need
+  website_url: https://www.omise.co/
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/8491/jYzpfxho_400x400.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
   website_url: http://sendgrid.com
@@ -599,6 +721,19 @@ tools:
   detection_source: config/cloud/cloud66/files/production.rb
   last_updated_by: Philip Kallberg
   last_updated_on: 2013-10-14 16:09:29.000000000 Z
+- name: Typ
+  description: Turn Markdown into formatted PDFs
+  website_url: https://www.typ-set.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/11914/typ.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/es/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/es/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
 - name: Uppy
   description: The next open source file uploader for web browsers
   website_url: https://uppy.io/
@@ -627,6 +762,44 @@ tools:
   detection_source: Gemfile
   last_updated_by: Sam
   last_updated_on: 2018-02-25 23:29:25.000000000 Z
+- name: CommonJS
+  website_url: http://www.commonjs.org
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2931/no-img-open-source.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: Contrast
+  description: 'Welcome to the Era of Self-Protecting Software. #AppSec #Security
+    #IAST #RASP #DevSecOps #DevOps'
+  website_url: http://contrastsecurity.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7116/NS-LOGOContrastSec.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: EC
+  website_url: BUG
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4455/no-img-open-source.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
+- name: ECT
+  website_url: http://ectjs.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2391/no-img-open-source.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Font Awesome
   description: The internet's most popular icon toolkit
   website_url: https://fontawesome.com/
@@ -640,6 +813,18 @@ tools:
   detection_source: package.json
   last_updated_by: Gerhard Schlager
   last_updated_on: 2022-06-20 13:25:13.000000000 Z
+- name: Lob
+  description: Print and Mail for Developers
+  website_url: https://lob.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Printing API
+  image_url: https://img.stackshare.io/service/281/default_917b21004d74cbcfcbafcd50aac4d1f3fe3747d5.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: Lodash
   description: A JavaScript utility library
   website_url: https://lodash.com
@@ -695,6 +880,17 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2020-11-11 01:34:26.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/KillerKat123/discourse
+  detection_source: Repo Metadata
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
   website_url: http://lisperator.net/uglifyjs/
@@ -707,6 +903,38 @@ tools:
   detection_source: Gemfile
   last_updated_by: johnmcdowall
   last_updated_on: 2013-02-09 17:04:52.000000000 Z
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
+- name: auto
+  description: Making the Car buying process easier
+  website_url: http://autoportal.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2634/quvIzEn2_normal.jpg
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: js
+  website_url: www.js.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5588/jscom.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: jsdoc
   description: An API documentation generator for JavaScript
   website_url: http://usejsdoc.org/
@@ -719,6 +947,1287 @@ tools:
   detection_source: package.json
   last_updated_by: Martin Brennan
   last_updated_on: 2023-02-13 12:09:57.000000000 Z
+- name: nci
+  description: Flexible, open source continuous integration server written in node.js
+  website_url: https://github.com/node-ci/nci
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7802/13189529.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
+- name: active_model_serializers
+  description: ActiveModel::Serializers allows you to generate your JSON in an object-oriented
+    and convention-driven manner
+  package_url: https://rubygems.org/active_model_serializers
+  version: 0.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19092/default_7d8fff827ba2485899e223ac4fb9773463ea4acd.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: addressable
+  description: Addressable is an alternative implementation to the URI implementation
+    that is part of Ruby's standard library
+  package_url: https://rubygems.org/addressable
+  version: 2.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18870/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2023-01-07 11:11:08.000000000 Z
+- name: annotate
+  description: Annotates Rails/ActiveRecord Models
+  package_url: https://rubygems.org/annotate
+  version: 3.2.0
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19550/default_65fd8d3cf98551f2f8f1e0cffcf1132cb03ee4fd.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2021-07-06 08:47:16.000000000 Z
+- name: arel
+  description: Arel Really Exasperates Logicians Arel is a SQL AST manager for Ruby
+  package_url: https://rubygems.org/arel
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19273/default_209999e183f7dadfc9e8afe0cc496669c084cb36.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2014-11-12 21:51:06.000000000 Z
+- name: aws-sdk-s3
+  description: Official AWS Ruby gem for Amazon Simple Storage Service
+  package_url: https://rubygems.org/aws-sdk-s3
+  version: 1.114.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19078/default_4df61286a41b221e05fffb41a1003ffc1a8eaf4e.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2019-02-13 20:26:40.000000000 Z
+- name: aws-sdk-sns
+  description: Official AWS Ruby gem for Amazon Simple Notification Service
+  package_url: https://rubygems.org/aws-sdk-sns
+  version: 1.53.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2019-02-13 20:26:40.000000000 Z
+- name: binding_of_caller
+  description: Retrieve the binding of a method's caller
+  package_url: https://rubygems.org/binding_of_caller
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Leonardo Mosquera
+  last_updated_on: 2022-11-28 19:30:19.000000000 Z
+- name: cbor
+  description: CBOR is a library for the CBOR binary object representation format
+  package_url: https://rubygems.org/cbor
+  version: 0.5.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2019-10-02 02:08:41.000000000 Z
+- name: certified
+  description: Ensure net/https uses OpenSSL::SSL::VERIFY_PEER to verify SSL certificates
+    and provides certificate bundle in case OpenSSL cannot find one
+  package_url: https://rubygems.org/certified
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2013-05-13 08:04:03.000000000 Z
+- name: colored2
+  description: This is a heavily modified fork of http://github.com/defunkt/colored
+    gem, with many sensible pull requests combined
+  package_url: https://rubygems.org/colored2
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19794/default_dc562522bb8e27795ab379270f6698f9b4f29fa5.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Gerhard Schlager
+  last_updated_on: 2018-09-04 21:57:20.000000000 Z
+- name: css_parser
+  description: A set of classes for parsing CSS in Ruby
+  package_url: https://rubygems.org/css_parser
+  version: 1.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19374/default_a6357952cecd3d7f5f139b05b2b322f8db813eda.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-03-17 11:09:45.000000000 Z
+- name: csv
+  description: The CSV library provides a complete interface to CSV files and data
+  package_url: https://rubygems.org/csv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: diffy
+  description: Convenient diffing in ruby
+  package_url: https://rubygems.org/diffy
+  version: 3.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19134/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2019-06-14 06:42:53.000000000 Z
+- name: digest
+  description: Like I said, create reports the easy way
+  package_url: https://rubygems.org/digest
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Jarek Radosz
+  last_updated_on: 2022-10-12 13:22:22.000000000 Z
+- name: excon
+  description: EXtended http
+  package_url: https://rubygems.org/excon
+  version: 0.99.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18969/default_9d52aa709072720d10689abb364a46204bb87784.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2015-05-25 07:57:06.000000000 Z
+- name: execjs
+  description: ExecJS lets you run JavaScript code from Ruby
+  package_url: https://rubygems.org/execjs
+  version: 2.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19031/default_5e6f4490e7ced4a026c6f8459237f2bb9d24fbdb.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2016-05-20 07:06:44.000000000 Z
+- name: fabrication
+  description: Fabrication is an object generation framework for ActiveRecord
+  package_url: https://rubygems.org/fabrication
+  version: 2.30.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19327/default_3e64cc94df19c66f84c55bb76c0d7b791f8f49f4.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-12-21 21:20:07.000000000 Z
+- name: faker
+  description: Faker
+  package_url: https://rubygems.org/faker
+  version: 2.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Vinoth Kannan
+  last_updated_on: 2021-11-01 12:28:24.000000000 Z
+- name: fakeweb
+  description: FakeWeb is a helper for faking web requests in Ruby
+  package_url: https://rubygems.org/fakeweb
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18874/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Vinoth Kannan
+  last_updated_on: 2021-11-01 12:28:24.000000000 Z
+- name: faraday
+  description: HTTP/REST API client library
+  package_url: https://rubygems.org/faraday
+  version: 2.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18835/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2022-10-05 12:19:04.000000000 Z
+- name: fast_blank
+  description: Provides a C-optimized method for determining if a string is blank
+  package_url: https://rubygems.org/fast_blank
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2020-07-29 07:08:06.000000000 Z
+- name: fast_xs
+  description: Fast_xs provides C extensions for escaping text
+  package_url: https://rubygems.org/fast_xs
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2020-07-29 07:08:06.000000000 Z
+- name: fastimage
+  description: FastImage finds the size or type of an image given its uri by fetching
+    as little as needed
+  package_url: https://rubygems.org/fastimage
+  version: 2.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19239/default_c4ed1d3f735f11415ee5d02b5a5ba48490465220.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Blake Erickson
+  last_updated_on: 2021-05-25 01:27:20.000000000 Z
+- name: highline
+  description: A high-level IO library that provides validation, type conversion,
+    and more for command-line interfaces
+  package_url: https://rubygems.org/highline
+  version: 2.1.0
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18866/default_2fe576f13c88e20e645ee0a744c045ee730bcad6.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-12-27 18:28:13.000000000 Z
+- name: htmlentities
+  description: A module for encoding and decoding
+  package_url: https://rubygems.org/htmlentities
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18995/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: http_accept_language
+  description: Find out which locale the user preferes by reading the languages they
+    specified in their browser
+  package_url: https://rubygems.org/http_accept_language
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2023-01-13 10:52:05.000000000 Z
+- name: image_optim
+  description: Command line tool and ruby interface to optimize
+  package_url: https://rubygems.org/image_optim
+  version: 0.31.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19798/default_5acb201e8340ca5b337b8c46c2fcaff7aa0db0ec.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Blake Erickson
+  last_updated_on: 2021-05-25 01:27:20.000000000 Z
+- name: listen
+  description: The Listen gem listens to file modifications and notifies you about
+    the changes
+  package_url: https://rubygems.org/listen
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2017-04-13 14:26:07.000000000 Z
+- name: lograge
+  description: Tame Rails' multi-line logging into a single line per request
+  package_url: https://rubygems.org/lograge
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2017-10-27 14:54:50.000000000 Z
+- name: logstash-event
+  description: Library that contains the classes required to create LogStash events
+  package_url: https://rubygems.org/logstash-event
+  version: 1.2.02
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2022-05-09 22:19:02.000000000 Z
+- name: logstash-logger
+  description: Ruby logger that writes directly to LogStash
+  package_url: https://rubygems.org/logstash-logger
+  version: 0.26.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2022-05-09 22:19:02.000000000 Z
+- name: loofah
+  description: Loofah is a general library for manipulating and transforming HTML/XML
+    documents and fragments, built on top of Nokogiri
+  package_url: https://rubygems.org/loofah
+  version: 2.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19467/default_9fadec62becac7e7d4b0d823b4daea6bad21b1be.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Roman Rizzi
+  last_updated_on: 2021-04-07 15:51:19.000000000 Z
+- name: lru_redux
+  description: An efficient implementation of an lru cache
+  package_url: https://rubygems.org/lru_redux
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19568/default_9af4d607387f607725ccb446048432254098a06a.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2013-04-24 01:59:59.000000000 Z
+- name: maxminddb
+  description: Pure Ruby MaxMind DB
+  package_url: https://rubygems.org/maxminddb
+  version: 0.1.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bianca Nenciu
+  last_updated_on: 2018-10-09 14:21:41.000000000 Z
+- name: memory_profiler
+  description: Memory profiling routines for Ruby 2.3+
+  package_url: https://rubygems.org/memory_profiler
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19745/default_9441b9831c402e8b1bbbeac1030603f41221911e.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: mini_mime
+  description: A lightweight mime type lookup toy
+  package_url: https://rubygems.org/mini_mime
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-03-17 11:09:45.000000000 Z
+- name: mini_racer
+  description: Minimal embedded v8 engine for Ruby
+  package_url: https://rubygems.org/mini_racer
+  version: 0.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-03-17 11:09:45.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: 5.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Loïc Guitaut
+  last_updated_on: 2022-03-21 14:28:52.000000000 Z
+- name: multi_json
+  description: A common interface to multiple JSON libraries
+  package_url: https://rubygems.org/multi_json
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18851/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Penar Musaraj
+  last_updated_on: 2021-03-11 02:32:23.000000000 Z
+- name: mysql2
+  description: A simple, fast Mysql library for Ruby, binding to libmysql
+  package_url: https://rubygems.org/mysql2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2017-04-24 20:32:27.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2016-06-07 06:51:39.000000000 Z
+  vulnerabilities:
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.16.2
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+- name: oj
+  description: The fastest JSON parser and object serializer
+  package_url: https://rubygems.org/oj
+  version: 3.13.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18910/default_b76f924b2976860f8be50e4adb06ebfdc8ab90ac.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: omniauth-facebook
+  description: Facebook OAuth2 Strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-facebook
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19539/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2019-06-03 18:17:00.000000000 Z
+- name: omniauth-github
+  description: Official OmniAuth strategy for GitHub
+  package_url: https://rubygems.org/omniauth-github
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2023-01-13 10:52:05.000000000 Z
+- name: omniauth-google-oauth2
+  description: A Google OAuth2 strategy for OmniAuth 1.x
+  package_url: https://rubygems.org/omniauth-google-oauth2
+  version: 0.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2019-06-03 18:17:00.000000000 Z
+- name: omniauth-oauth2
+  description: An abstract OAuth2 strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-oauth2
+  version: 1.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18909/default_6011c3e13c0feeff577120981a21a5968e50756a.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2019-06-03 18:17:00.000000000 Z
+- name: omniauth-twitter
+  description: OmniAuth strategy for Twitter
+  package_url: https://rubygems.org/omniauth-twitter
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19712/default_aeaa8b24dd36f8e334bb5b9c0baaee88c37e0037.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2020-06-12 01:22:40.000000000 Z
+- name: parallel
+  description: Run any kind of code in parallel processes
+  package_url: https://rubygems.org/parallel
+  version: 1.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18994/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Leonardo Mosquera
+  last_updated_on: 2022-11-28 19:30:19.000000000 Z
+- name: parallel_tests
+  description: Run Test::Unit / RSpec / Cucumber / Spinach in parallel
+  package_url: https://rubygems.org/parallel_tests
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19381/default_d06491b31bf23f206766eea6b3a6a79554fea530.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Leonardo Mosquera
+  last_updated_on: 2022-11-28 19:30:19.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 1.4.6
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: pry-byebug
+  description: Combine 'pry' with 'byebug'
+  package_url: https://rubygems.org/pry-byebug
+  version: 3.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2020-06-05 02:30:34.000000000 Z
+- name: pry-rails
+  description: Use Pry as your rails console
+  package_url: https://rubygems.org/pry-rails
+  version: 0.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19013/default_3667c8b28d9ec2ad93884ef523ec8f357774f78e.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: rack
+  description: Rack provides a minimal, modular and adaptable interface for developing
+    web applications in Ruby
+  package_url: https://rubygems.org/rack
+  version: 2.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18839/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2020-07-08 06:42:31.000000000 Z
+  vulnerabilities:
+  - name: Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)
+    cve_id: CVE-2024-25126
+    cve_url: https://github.com/advisories/GHSA-22f2-v57c-j9cx
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack Header Parsing leads to Possible Denial of Service Vulnerability
+    cve_id: CVE-2024-26146
+    cve_url: https://github.com/advisories/GHSA-54rr-7fvw-6x8f
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+  - name: Rack has possible DoS Vulnerability with Range Header
+    cve_id: CVE-2024-26141
+    cve_url: https://github.com/advisories/GHSA-xj5v-6v4g-jfw6
+    detected_date: Feb 29
+    severity: low
+    first_patched: 2.2.8.1
+- name: rack-mini-profiler
+  description: Profiling toolkit for Rack applications with Rails integration
+  package_url: https://rubygems.org/rack-mini-profiler
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: rack-protection
+  description: Protect against typical web attacks
+  package_url: https://rubygems.org/rack-protection
+  version: 3.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19588/default_5818f1f1c1c8cc4ffc2dcfcc8c7303f5c2518c2f.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Alan Guo Xiang Tan
+  last_updated_on: 2021-08-20 02:20:08.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 13.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: rchardet
+  description: Character encoding auto-detection in Ruby
+  package_url: https://rubygems.org/rchardet
+  version: 1.8.0
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Gerhard Schlager
+  last_updated_on: 2018-07-31 10:02:18.000000000 Z
+- name: redcarpet
+  description: A fast, safe and extensible Markdown to
+  package_url: https://rubygems.org/redcarpet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2017-04-24 20:32:27.000000000 Z
+- name: redis-namespace
+  description: Adds a Redis::Namespace class which can be used to namespace calls
+    to Redis
+  package_url: https://rubygems.org/redis-namespace
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19048/default_f59dec556f76ef878ccb1b8ccfe909880fad26c9.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2019-12-12 02:35:43.000000000 Z
+- name: reverse_markdown
+  description: Map simple html back into markdown, e.g
+  package_url: https://rubygems.org/reverse_markdown
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2023-01-23 20:38:49.000000000 Z
+- name: rinku
+  description: A fast and very smart autolinking library that acts as a drop-in replacement
+    for Rails `auto_link`
+  package_url: https://rubygems.org/rinku
+  version: 2.0.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19769/default_a49e0df53f26b21a9f5f65436125cec5e48b49af.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: johnmcdowall
+  last_updated_on: 2013-02-09 17:04:52.000000000 Z
+- name: rotp
+  description: Works for both HOTP and TOTP
+  package_url: https://rubygems.org/rotp
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19730/default_be22d39d0c697424d0da2019daf25b87c93b4c6e.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Blake Erickson
+  last_updated_on: 2020-08-19 15:16:33.000000000 Z
+- name: rqrcode
+  description: Rqrcode is a library for encoding QR Codes
+  package_url: https://rubygems.org/rqrcode
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19491/default_235e01dd950d1f80c14beead28dc8c06a1dbf108.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2018-10-19 14:03:22.000000000 Z
+- name: rspec-html-matchers
+  description: Nokogiri based 'have_tag' and 'with_tag' matchers for rspec 3
+  package_url: https://rubygems.org/rspec-html-matchers
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19268/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2020-05-04 05:20:30.000000000 Z
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: ruby-prof
+  description: Ruby-prof is a fast code profiler for Ruby
+  package_url: https://rubygems.org/ruby-prof
+  version: 1.6.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19062/default_7520676ca0e090ecd07df08a8e0994b056912237.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: ruby-readability
+  description: Port of arc90's readability project to ruby
+  package_url: https://rubygems.org/ruby-readability
+  version: 0.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: rubyzip
+  description: Rubyzip is a ruby module for reading and writing zip files
+  package_url: https://rubygems.org/rubyzip
+  version: 2.3.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18887/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: sanitize
+  description: Sanitize is a whitelist-based HTML and CSS sanitizer
+  package_url: https://rubygems.org/sanitize
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19061/default_5739fe334ed718fddcfdaaefc58a5ee795a7f605.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Arpit Jalan
+  last_updated_on: 2021-05-26 09:41:35.000000000 Z
+  vulnerabilities:
+  - name: Sanitize vulnerable to Cross-site Scripting via insufficient neutralization
+      of `style` element content
+    cve_id: CVE-2023-36823
+    cve_url: https://github.com/advisories/GHSA-f5ww-cq3m-q3g7
+    detected_date: Jul 7
+    severity: high
+    first_patched: 6.0.2
+- name: selenium-webdriver
+  description: WebDriver is a tool for writing automated tests of websites
+  package_url: https://rubygems.org/selenium-webdriver
+  version: 4.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18901/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2022-09-28 01:48:16.000000000 Z
+- name: shoulda-matchers
+  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+    to test common Rails functionality that
+  package_url: https://rubygems.org/shoulda-matchers
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2022-04-20 21:17:29.000000000 Z
+- name: simplecov
+  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
+    automatic merging of coverage across test suites
+  package_url: https://rubygems.org/simplecov
+  version: 0.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2019-12-12 02:35:43.000000000 Z
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 3.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: sprockets-rails
+  description: Sprockets Rails integration
+  package_url: https://rubygems.org/sprockets-rails
+  version: 3.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19198/default_be4b4d308c5637e0747ed40c613027452d6ef0c5.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2023-02-07 15:24:57.000000000 Z
+- name: sqlite3
+  description: This module allows Ruby programs to interface with the SQLite3 database
+    engine
+  package_url: https://rubygems.org/sqlite3
+  version: '1.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2019-12-06 02:00:16.000000000 Z
+- name: sshkey
+  description: Generate private/public SSH keypairs using pure Ruby
+  package_url: https://rubygems.org/sshkey
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19635/default_c20e52921fb58565300f75e5cc64e8813f40ba54.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2018-03-09 05:14:21.000000000 Z
+- name: stackprof
+  description: Stackprof is a fast sampling profiler for ruby code
+  package_url: https://rubygems.org/stackprof
+  version: 0.2.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19598/default_88694c513ad6229305b102ea8a6b3d3fbdcd342e.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-03-17 11:09:45.000000000 Z
+- name: tiny_tds
+  description: TinyTDS - A modern, simple and fast FreeTDS library for Ruby using
+    DB-Library
+  package_url: https://rubygems.org/tiny_tds
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19734/default_aa474d7015fda600ab28878906d1a036af8e61c7.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Régis Hanol
+  last_updated_on: 2018-06-04 14:57:12.000000000 Z
+- name: tzinfo-data
+  description: TZInfo::Data contains data from the IANA Time Zone database packaged
+    as Ruby modules for use with TZInfo
+  package_url: https://rubygems.org/tzinfo-data
+  version: 1.2022.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Penar Musaraj
+  last_updated_on: 2023-02-21 16:52:04.000000000 Z
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam
+  last_updated_on: 2013-05-13 08:04:03.000000000 Z
+- name: unf
+  description: This is a wrapper library to bring Unicode Normalization Form support
+    to Ruby/JRuby
+  package_url: https://rubygems.org/unf
+  version: 0.1.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19426/default_d8d9e269f3470c79700fe31e57a14ccc1424ff5a.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Robin Ward
+  last_updated_on: 2013-02-05 19:16:51.000000000 Z
+- name: unicorn
+  description: Unicorn is an HTTP server for Rack applications designed to only serve
+    fast clients on low-latency
+  package_url: https://rubygems.org/unicorn
+  version: 6.1.0
+  license: GPL-2.0+,Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19218/default_504c6d1cb95a30a2134a5c2236c1c37c91700cc1.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Sam Saffron
+  last_updated_on: 2020-07-29 07:08:06.000000000 Z
+- name: webdrivers
+  description: Run Selenium tests more easily with install and updates for all supported
+    webdrivers
+  package_url: https://rubygems.org/webdrivers
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19420/default_16904f646648128b821ee8aabb068fa7a1b5025f.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Taylor
+  last_updated_on: 2023-01-23 20:38:49.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  version: 3.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Guo Xiang Tan
+  last_updated_on: 2017-04-15 04:11:02.000000000 Z
+- name: webrick
+  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
+    server
+  package_url: https://rubygems.org/webrick
+  version: 1.7.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-12-21 21:20:07.000000000 Z
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  version: 0.9.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Martin Brennan
+  last_updated_on: 2023-02-13 12:09:57.000000000 Z
+  vulnerabilities:
+  - name: YARD's default template vulnerable to Cross-site Scripting in generated
+      frames.html
+    cve_id: CVE-2024-27285
+    cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
+    detected_date: Feb 29
+    severity: moderate
+    first_patched: 0.9.36
 - name: "@babel/core"
   description: Babel compiler core
   package_url: https://www.npmjs.com/@babel/core
@@ -830,6 +2339,19 @@ tools:
   detection_source: vendor/assets/javascripts/highlightjs/package.json
   last_updated_by: Rafael dos Santos Silva
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
+- name: ai
+  description: The Vercel AI SDK is **a library for building AI-powered streaming
+    text and chat UIs**
+  package_url: https://www.npmjs.com/ai
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2020-11-11 01:34:26.000000000 Z
 - name: autod
   description: Auto generate dependencies
   package_url: https://www.npmjs.com/autod
@@ -902,7 +2424,7 @@ tools:
   last_updated_on: 2022-09-20 15:43:28.000000000 Z
   vulnerabilities:
   - name: Regular Expression Denial of Service in clean-css
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-wxhq-pm8v-cw75
     detected_date: Aug 22
     severity: low
@@ -1322,6 +2844,19 @@ tools:
   detection_source: app/assets/javascripts/bootstrap-json/package.json
   last_updated_by: Jarek Radosz
   last_updated_on: 2022-11-16 10:58:10.000000000 Z
+- name: github
+  description: 'DEPRECATED: renamed to @octokit/rest'
+  package_url: https://www.npmjs.com/github
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16751/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/vendor/assets/javascripts/highlightjs/package.json
+  detection_source: vendor/assets/javascripts/highlightjs/package.json
+  last_updated_by: Rafael dos Santos Silva
+  last_updated_on: 2022-09-20 15:43:28.000000000 Z
 - name: glob
   description: A little globber
   package_url: https://www.npmjs.com/glob
@@ -1856,1002 +3391,3 @@ tools:
   detection_source: app/assets/javascripts/discourse/package.json
   last_updated_by: Jarek Radosz
   last_updated_on: 2022-12-12 11:08:57.000000000 Z
-- name: active_model_serializers
-  description: ActiveModel::Serializers allows you to generate your JSON in an object-oriented
-    and convention-driven manner
-  package_url: https://rubygems.org/active_model_serializers
-  version: 0.8.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19092/default_7d8fff827ba2485899e223ac4fb9773463ea4acd.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Alan Guo Xiang Tan
-  last_updated_on: 2021-08-20 02:20:08.000000000 Z
-- name: addressable
-  description: Addressable is an alternative implementation to the URI implementation
-    that is part of Ruby's standard library
-  package_url: https://rubygems.org/addressable
-  version: 2.8.1
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18870/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2023-01-07 11:11:08.000000000 Z
-- name: annotate
-  description: Annotates Rails/ActiveRecord Models
-  package_url: https://rubygems.org/annotate
-  version: 3.2.0
-  license: Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19550/default_65fd8d3cf98551f2f8f1e0cffcf1132cb03ee4fd.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2021-07-06 08:47:16.000000000 Z
-- name: arel
-  description: Arel Really Exasperates Logicians Arel is a SQL AST manager for Ruby
-  package_url: https://rubygems.org/arel
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19273/default_209999e183f7dadfc9e8afe0cc496669c084cb36.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2014-11-12 21:51:06.000000000 Z
-- name: aws-sdk-s3
-  description: Official AWS Ruby gem for Amazon Simple Storage Service
-  package_url: https://rubygems.org/aws-sdk-s3
-  version: 1.114.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19078/default_4df61286a41b221e05fffb41a1003ffc1a8eaf4e.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Régis Hanol
-  last_updated_on: 2019-02-13 20:26:40.000000000 Z
-- name: binding_of_caller
-  description: Retrieve the binding of a method's caller
-  package_url: https://rubygems.org/binding_of_caller
-  version: 1.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Leonardo Mosquera
-  last_updated_on: 2022-11-28 19:30:19.000000000 Z
-- name: colored2
-  description: This is a heavily modified fork of http://github.com/defunkt/colored
-    gem, with many sensible pull requests combined
-  package_url: https://rubygems.org/colored2
-  version: 3.1.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19794/default_dc562522bb8e27795ab379270f6698f9b4f29fa5.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Gerhard Schlager
-  last_updated_on: 2018-09-04 21:57:20.000000000 Z
-- name: css_parser
-  description: A set of classes for parsing CSS in Ruby
-  package_url: https://rubygems.org/css_parser
-  version: 1.14.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19374/default_a6357952cecd3d7f5f139b05b2b322f8db813eda.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: dependabot-preview[bot]
-  last_updated_on: 2020-03-17 11:09:45.000000000 Z
-- name: diffy
-  description: Convenient diffing in ruby
-  package_url: https://rubygems.org/diffy
-  version: 3.4.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19134/default_302643c2b99caa1c440c0d4aa23d4230e1cc78e3.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Guo Xiang Tan
-  last_updated_on: 2019-06-14 06:42:53.000000000 Z
-- name: excon
-  description: EXtended http
-  package_url: https://rubygems.org/excon
-  version: 0.99.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18969/default_9d52aa709072720d10689abb364a46204bb87784.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2015-05-25 07:57:06.000000000 Z
-- name: execjs
-  description: ExecJS lets you run JavaScript code from Ruby
-  package_url: https://rubygems.org/execjs
-  version: 2.8.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19031/default_5e6f4490e7ced4a026c6f8459237f2bb9d24fbdb.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2016-05-20 07:06:44.000000000 Z
-- name: fabrication
-  description: Fabrication is an object generation framework for ActiveRecord
-  package_url: https://rubygems.org/fabrication
-  version: 2.30.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19327/default_3e64cc94df19c66f84c55bb76c0d7b791f8f49f4.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-12-21 21:20:07.000000000 Z
-- name: faker
-  description: Faker
-  package_url: https://rubygems.org/faker
-  version: 2.23.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Vinoth Kannan
-  last_updated_on: 2021-11-01 12:28:24.000000000 Z
-- name: fakeweb
-  description: FakeWeb is a helper for faking web requests in Ruby
-  package_url: https://rubygems.org/fakeweb
-  version: 1.3.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18874/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Vinoth Kannan
-  last_updated_on: 2021-11-01 12:28:24.000000000 Z
-- name: faraday
-  description: HTTP/REST API client library
-  package_url: https://rubygems.org/faraday
-  version: 2.7.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18835/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2022-10-05 12:19:04.000000000 Z
-- name: fastimage
-  description: FastImage finds the size or type of an image given its uri by fetching
-    as little as needed
-  package_url: https://rubygems.org/fastimage
-  version: 2.2.6
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19239/default_c4ed1d3f735f11415ee5d02b5a5ba48490465220.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Blake Erickson
-  last_updated_on: 2021-05-25 01:27:20.000000000 Z
-- name: highline
-  description: A high-level IO library that provides validation, type conversion,
-    and more for command-line interfaces
-  package_url: https://rubygems.org/highline
-  version: 2.1.0
-  license: Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18866/default_2fe576f13c88e20e645ee0a744c045ee730bcad6.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-12-27 18:28:13.000000000 Z
-- name: htmlentities
-  description: A module for encoding and decoding
-  package_url: https://rubygems.org/htmlentities
-  version: 4.3.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18995/default_33b08efb2463b893403b434b8c4275715d78743b.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Alan Guo Xiang Tan
-  last_updated_on: 2021-08-20 02:20:08.000000000 Z
-- name: image_optim
-  description: Command line tool and ruby interface to optimize
-  package_url: https://rubygems.org/image_optim
-  version: 0.31.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19798/default_5acb201e8340ca5b337b8c46c2fcaff7aa0db0ec.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Blake Erickson
-  last_updated_on: 2021-05-25 01:27:20.000000000 Z
-- name: json
-  description: This is a JSON implementation as a Ruby extension in C
-  package_url: https://rubygems.org/json
-  version: 2.6.3
-  license: Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Penar Musaraj
-  last_updated_on: 2021-03-11 02:32:23.000000000 Z
-- name: listen
-  description: The Listen gem listens to file modifications and notifies you about
-    the changes
-  package_url: https://rubygems.org/listen
-  version: 3.8.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18942/default_a51418802dbfb428c729400211798b5046fe4140.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2017-04-13 14:26:07.000000000 Z
-- name: loofah
-  description: Loofah is a general library for manipulating and transforming HTML/XML
-    documents and fragments, built on top of Nokogiri
-  package_url: https://rubygems.org/loofah
-  version: 2.19.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19467/default_9fadec62becac7e7d4b0d823b4daea6bad21b1be.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Roman Rizzi
-  last_updated_on: 2021-04-07 15:51:19.000000000 Z
-- name: lru_redux
-  description: An efficient implementation of an lru cache
-  package_url: https://rubygems.org/lru_redux
-  version: 1.1.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19568/default_9af4d607387f607725ccb446048432254098a06a.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2013-04-24 01:59:59.000000000 Z
-- name: mail
-  description: A really Ruby Mail handler
-  package_url: https://rubygems.org/mail
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18937/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Loïc Guitaut
-  last_updated_on: 2022-06-07 14:58:04.000000000 Z
-- name: memory_profiler
-  description: Memory profiling routines for Ruby 2.3+
-  package_url: https://rubygems.org/memory_profiler
-  version: 1.0.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19745/default_9441b9831c402e8b1bbbeac1030603f41221911e.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Alan Guo Xiang Tan
-  last_updated_on: 2021-08-20 02:20:08.000000000 Z
-- name: minitest
-  description: Minitest provides a complete suite of testing facilities supporting
-    TDD, BDD, mocking, and benchmarking
-  package_url: https://rubygems.org/minitest
-  version: 5.18.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Loïc Guitaut
-  last_updated_on: 2022-03-21 14:28:52.000000000 Z
-- name: multi_json
-  description: A common interface to multiple JSON libraries
-  package_url: https://rubygems.org/multi_json
-  version: 1.15.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18851/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Penar Musaraj
-  last_updated_on: 2021-03-11 02:32:23.000000000 Z
-- name: mysql2
-  description: A simple, fast Mysql library for Ruby, binding to libmysql
-  package_url: https://rubygems.org/mysql2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Régis Hanol
-  last_updated_on: 2017-04-24 20:32:27.000000000 Z
-- name: nokogiri
-  description: Nokogiri
-  package_url: https://rubygems.org/nokogiri
-  version: 1.14.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2016-06-07 06:51:39.000000000 Z
-  vulnerabilities:
-  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
-    cve_id: 
-    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
-    detected_date: Apr 12
-    severity: moderate
-    first_patched: 1.14.3
-- name: oj
-  description: The fastest JSON parser and object serializer
-  package_url: https://rubygems.org/oj
-  version: 3.13.14
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18910/default_b76f924b2976860f8be50e4adb06ebfdc8ab90ac.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Robin Ward
-  last_updated_on: 2013-02-05 19:16:51.000000000 Z
-- name: omniauth-facebook
-  description: Facebook OAuth2 Strategy for OmniAuth
-  package_url: https://rubygems.org/omniauth-facebook
-  version: 9.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19539/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2019-06-03 18:17:00.000000000 Z
-- name: omniauth-oauth2
-  description: An abstract OAuth2 strategy for OmniAuth
-  package_url: https://rubygems.org/omniauth-oauth2
-  version: 1.7.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18909/default_6011c3e13c0feeff577120981a21a5968e50756a.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2019-06-03 18:17:00.000000000 Z
-- name: omniauth-twitter
-  description: OmniAuth strategy for Twitter
-  package_url: https://rubygems.org/omniauth-twitter
-  version: 1.4.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19712/default_aeaa8b24dd36f8e334bb5b9c0baaee88c37e0037.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Guo Xiang Tan
-  last_updated_on: 2020-06-12 01:22:40.000000000 Z
-- name: parallel
-  description: Run any kind of code in parallel processes
-  package_url: https://rubygems.org/parallel
-  version: 1.22.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18994/default_33b08efb2463b893403b434b8c4275715d78743b.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Leonardo Mosquera
-  last_updated_on: 2022-11-28 19:30:19.000000000 Z
-- name: parallel_tests
-  description: Run Test::Unit / RSpec / Cucumber / Spinach in parallel
-  package_url: https://rubygems.org/parallel_tests
-  version: 4.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19381/default_d06491b31bf23f206766eea6b3a6a79554fea530.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Leonardo Mosquera
-  last_updated_on: 2022-11-28 19:30:19.000000000 Z
-- name: pg
-  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
-  package_url: https://rubygems.org/pg
-  version: 1.4.6
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Robin Ward
-  last_updated_on: 2013-02-05 19:16:51.000000000 Z
-- name: pry-byebug
-  description: Combine 'pry' with 'byebug'
-  package_url: https://rubygems.org/pry-byebug
-  version: 3.10.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Martin Brennan
-  last_updated_on: 2020-06-05 02:30:34.000000000 Z
-- name: pry-rails
-  description: Use Pry as your rails console
-  package_url: https://rubygems.org/pry-rails
-  version: 0.3.9
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19013/default_3667c8b28d9ec2ad93884ef523ec8f357774f78e.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2023-02-07 15:24:57.000000000 Z
-- name: rack
-  description: Rack provides a minimal, modular and adaptable interface for developing
-    web applications in Ruby
-  package_url: https://rubygems.org/rack
-  version: 2.2.6
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18839/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2020-07-08 06:42:31.000000000 Z
-- name: rack-protection
-  description: Protect against typical web attacks
-  package_url: https://rubygems.org/rack-protection
-  version: 3.0.5
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19588/default_5818f1f1c1c8cc4ffc2dcfcc8c7303f5c2518c2f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Alan Guo Xiang Tan
-  last_updated_on: 2021-08-20 02:20:08.000000000 Z
-- name: rake
-  description: Rake is a Make-like program implemented in Ruby
-  package_url: https://rubygems.org/rake
-  version: 13.0.6
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Robin Ward
-  last_updated_on: 2013-02-05 19:16:51.000000000 Z
-- name: redcarpet
-  description: A fast, safe and extensible Markdown to
-  package_url: https://rubygems.org/redcarpet
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Régis Hanol
-  last_updated_on: 2017-04-24 20:32:27.000000000 Z
-- name: redis-namespace
-  description: Adds a Redis::Namespace class which can be used to namespace calls
-    to Redis
-  package_url: https://rubygems.org/redis-namespace
-  version: 1.10.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19048/default_f59dec556f76ef878ccb1b8ccfe909880fad26c9.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2019-12-12 02:35:43.000000000 Z
-- name: rinku
-  description: A fast and very smart autolinking library that acts as a drop-in replacement
-    for Rails `auto_link`
-  package_url: https://rubygems.org/rinku
-  version: 2.0.6
-  license: ISC
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19769/default_a49e0df53f26b21a9f5f65436125cec5e48b49af.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: johnmcdowall
-  last_updated_on: 2013-02-09 17:04:52.000000000 Z
-- name: rotp
-  description: Works for both HOTP and TOTP
-  package_url: https://rubygems.org/rotp
-  version: 6.2.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19730/default_be22d39d0c697424d0da2019daf25b87c93b4c6e.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Blake Erickson
-  last_updated_on: 2020-08-19 15:16:33.000000000 Z
-- name: rqrcode
-  description: Rqrcode is a library for encoding QR Codes
-  package_url: https://rubygems.org/rqrcode
-  version: 2.1.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19491/default_235e01dd950d1f80c14beead28dc8c06a1dbf108.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Régis Hanol
-  last_updated_on: 2018-10-19 14:03:22.000000000 Z
-- name: rspec-html-matchers
-  description: Nokogiri based 'have_tag' and 'with_tag' matchers for rspec 3
-  package_url: https://rubygems.org/rspec-html-matchers
-  version: 0.10.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19268/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2020-05-04 05:20:30.000000000 Z
-- name: rspec-rails
-  description: Rspec-rails is a testing framework for Rails 3+
-  package_url: https://rubygems.org/rspec-rails
-  version: 6.0.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2023-02-07 15:24:57.000000000 Z
-- name: ruby-prof
-  description: Ruby-prof is a fast code profiler for Ruby
-  package_url: https://rubygems.org/ruby-prof
-  version: 1.6.1
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19062/default_7520676ca0e090ecd07df08a8e0994b056912237.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2023-02-07 15:24:57.000000000 Z
-- name: rubyzip
-  description: Rubyzip is a ruby module for reading and writing zip files
-  package_url: https://rubygems.org/rubyzip
-  version: 2.3.2
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18887/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2023-02-07 15:24:57.000000000 Z
-- name: sanitize
-  description: Sanitize is a whitelist-based HTML and CSS sanitizer
-  package_url: https://rubygems.org/sanitize
-  version: 6.0.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19061/default_5739fe334ed718fddcfdaaefc58a5ee795a7f605.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Arpit Jalan
-  last_updated_on: 2021-05-26 09:41:35.000000000 Z
-  vulnerabilities:
-  - name: Sanitize vulnerable to Cross-site Scripting via insufficient neutralization
-      of `style` element content
-    cve_id: CVE-2023-36823
-    cve_url: https://github.com/advisories/GHSA-f5ww-cq3m-q3g7
-    detected_date: Jul 7
-    severity: high
-    first_patched: 6.0.2
-- name: selenium-webdriver
-  description: WebDriver is a tool for writing automated tests of websites
-  package_url: https://rubygems.org/selenium-webdriver
-  version: 4.8.1
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18901/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Martin Brennan
-  last_updated_on: 2022-09-28 01:48:16.000000000 Z
-- name: shoulda-matchers
-  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
-    to test common Rails functionality that
-  package_url: https://rubygems.org/shoulda-matchers
-  version: 5.3.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2022-04-20 21:17:29.000000000 Z
-- name: simplecov
-  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
-    automatic merging of coverage across test suites
-  package_url: https://rubygems.org/simplecov
-  version: 0.22.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2019-12-12 02:35:43.000000000 Z
-- name: sprockets
-  description: Sprockets is a Rack-based asset packaging system that concatenates
-    and serves JavaScript
-  package_url: https://rubygems.org/sprockets
-  version: 3.7.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2023-02-07 15:24:57.000000000 Z
-- name: sprockets-rails
-  description: Sprockets Rails integration
-  package_url: https://rubygems.org/sprockets-rails
-  version: 3.4.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19198/default_be4b4d308c5637e0747ed40c613027452d6ef0c5.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2023-02-07 15:24:57.000000000 Z
-- name: sqlite3
-  description: This module allows Ruby programs to interface with the SQLite3 database
-    engine
-  package_url: https://rubygems.org/sqlite3
-  version: '1.3'
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2019-12-06 02:00:16.000000000 Z
-- name: sshkey
-  description: Generate private/public SSH keypairs using pure Ruby
-  package_url: https://rubygems.org/sshkey
-  version: 2.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19635/default_c20e52921fb58565300f75e5cc64e8813f40ba54.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2018-03-09 05:14:21.000000000 Z
-- name: stackprof
-  description: Stackprof is a fast sampling profiler for ruby code
-  package_url: https://rubygems.org/stackprof
-  version: 0.2.23
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19598/default_88694c513ad6229305b102ea8a6b3d3fbdcd342e.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: dependabot-preview[bot]
-  last_updated_on: 2020-03-17 11:09:45.000000000 Z
-- name: thor
-  description: Thor is a toolkit for building powerful command-line interfaces
-  package_url: https://rubygems.org/thor
-  version: 1.2.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18827/default_fa0604c1b3b2c413c942b4fa310935704d314c2f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Guo Xiang Tan
-  last_updated_on: 2017-03-03 02:14:35.000000000 Z
-- name: tiny_tds
-  description: TinyTDS - A modern, simple and fast FreeTDS library for Ruby using
-    DB-Library
-  package_url: https://rubygems.org/tiny_tds
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19734/default_aa474d7015fda600ab28878906d1a036af8e61c7.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Régis Hanol
-  last_updated_on: 2018-06-04 14:57:12.000000000 Z
-- name: tzinfo-data
-  description: TZInfo::Data contains data from the IANA Time Zone database packaged
-    as Ruby modules for use with TZInfo
-  package_url: https://rubygems.org/tzinfo-data
-  version: 1.2022.7
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Penar Musaraj
-  last_updated_on: 2023-02-21 16:52:04.000000000 Z
-- name: uglifier
-  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
-    in Ruby
-  package_url: https://rubygems.org/uglifier
-  version: 4.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam
-  last_updated_on: 2013-05-13 08:04:03.000000000 Z
-- name: unf
-  description: This is a wrapper library to bring Unicode Normalization Form support
-    to Ruby/JRuby
-  package_url: https://rubygems.org/unf
-  version: 0.1.4
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19426/default_d8d9e269f3470c79700fe31e57a14ccc1424ff5a.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Robin Ward
-  last_updated_on: 2013-02-05 19:16:51.000000000 Z
-- name: unicorn
-  description: Unicorn is an HTTP server for Rack applications designed to only serve
-    fast clients on low-latency
-  package_url: https://rubygems.org/unicorn
-  version: 6.1.0
-  license: GPL-2.0+,Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19218/default_504c6d1cb95a30a2134a5c2236c1c37c91700cc1.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Sam Saffron
-  last_updated_on: 2020-07-29 07:08:06.000000000 Z
-- name: webdrivers
-  description: Run Selenium tests more easily with install and updates for all supported
-    webdrivers
-  package_url: https://rubygems.org/webdrivers
-  version: 5.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19420/default_16904f646648128b821ee8aabb068fa7a1b5025f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Taylor
-  last_updated_on: 2023-01-23 20:38:49.000000000 Z
-- name: webmock
-  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
-    requests
-  package_url: https://rubygems.org/webmock
-  version: 3.18.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Guo Xiang Tan
-  last_updated_on: 2017-04-15 04:11:02.000000000 Z
-- name: webrick
-  description: WEBrick is an HTTP server toolkit that can be configured as an HTTPS
-    server
-  package_url: https://rubygems.org/webrick
-  version: 1.7.0
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19444/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Rafael dos Santos Silva
-  last_updated_on: 2022-12-21 21:20:07.000000000 Z
-- name: yard
-  description: YARD is a documentation generation tool for the Ruby programming language
-  package_url: https://rubygems.org/yard
-  version: 0.9.28
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: https://github.com/KillerKat123/discourse/blob/main/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Martin Brennan
-  last_updated_on: 2023-02-13 12:09:57.000000000 Z
